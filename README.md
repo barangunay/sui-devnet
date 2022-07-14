@@ -1,10 +1,5 @@
-<h1 align="center"> Sui Devnet Node Kurulumu </h1> 
-
 Not: Türkçeye çevrilmiştir, alıntıdır.
 ![image](https://user-images.githubusercontent.com/101149671/178116806-26715fca-3ff8-43d5-ae1e-cee3926828de.png)
-
-# Telegram kanalı: https://t.me/SuiTurkish
-
 # Gereksinimler (minimum) (ekip tavsiyesi 8 ram):
 ```
 2 CPU
@@ -18,7 +13,7 @@ Node kurduktan sonra sonda söyleyeceğim işlemleri yapmayı unutmayın!!
 screen -S sui
 ```
 
-# Full nodeumuzu yükleyelim (15-20dk sürebilir)
+# Full nodeumuzu yükleyelim (15-20dk sürebilir, kısada sürebilir)
 ```
 wget -O sui.sh https://raw.githubusercontent.com/kj89/testnet_manuals/main/sui/sui.sh && chmod +x sui.sh && ./sui.sh
 ```
@@ -41,7 +36,7 @@ docker logs -f sui-fullnode-1 --tail 50
 
 # Daha sonra discorda giriyoruz ve şu şekilde mesaj atıyoruz #node-ip-application kanalına: https://discord.gg/GUeN8TY7xD
 
-![image](https://user-images.githubusercontent.com/101149671/178118265-a2463048-f656-4382-87cf-faaef1d032d0.png)
+http://sunucuip:9000/
 
 Not: #pick-a-role role kanalından da rol alabilirsiniz isterseniz emojilere tıklayarak.
 
